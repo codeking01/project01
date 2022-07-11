@@ -1,0 +1,388 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1638780259339)
++++ b/.gitignore	(date 1638780259339)
+@@ -0,0 +1,2 @@
++# Project exclude paths
++/out/
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1638515665057)
++++ b/.idea/encodings.xml	(date 1638515665057)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
++    <file url="PROJECT" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/codeStyles/codeStyleConfig.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/codeStyles/codeStyleConfig.xml b/.idea/codeStyles/codeStyleConfig.xml
+new file mode 100644
+--- /dev/null	(date 1638712786581)
++++ b/.idea/codeStyles/codeStyleConfig.xml	(date 1638712786581)
+@@ -0,0 +1,5 @@
++<component name="ProjectCodeStyleConfiguration">
++  <state>
++    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default" />
++  </state>
++</component>
+\ No newline at end of file
+Index: web/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/web/index.jsp b/web/index.jsp
+new file mode 100644
+--- /dev/null	(date 1638727816277)
++++ b/web/index.jsp	(date 1638727816277)
+@@ -0,0 +1,20 @@
++<%--
++  Created by IntelliJ IDEA.
++  User: king
++  Date: 2021/12/4
++  Time: 0:02
++  To change this template use File | Settings | File Templates.
++--%>
++<%@ page contentType="text/html;charset=UTF-8" language="java" %>
++<html>
++  <head>
++    <title>分布构效关系修改发</title>
++    <p>
++      重新搭建服务器
++      hhadofhadfjasiodjfi
++    </p>
++  </head>
++  <body>
++
++  </body>
++</html>
+Index: web/WEB-INF/web.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/web/WEB-INF/web.xml b/web/WEB-INF/web.xml
+new file mode 100644
+--- /dev/null	(date 1638547351278)
++++ b/web/WEB-INF/web.xml	(date 1638547351278)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
++         version="4.0">
++</web-app>
+\ No newline at end of file
+Index: java_project.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/java_project.iml b/java_project.iml
+new file mode 100644
+--- /dev/null	(date 1638725065047)
++++ b/java_project.iml	(date 1638725065047)
+@@ -0,0 +1,23 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="FacetManager">
++    <facet type="web" name="Web">
++      <configuration>
++        <descriptors>
++          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
++        </descriptors>
++        <webroots>
++          <root url="file://$MODULE_DIR$/web" relative="/" />
++        </webroots>
++      </configuration>
++    </facet>
++  </component>
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1638547053118)
++++ b/.idea/modules.xml	(date 1638547053118)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/StaticWeb01/StaticWeb01.iml" filepath="$PROJECT_DIR$/StaticWeb01/StaticWeb01.iml" />
++      <module fileurl="file://$PROJECT_DIR$/java_project.iml" filepath="$PROJECT_DIR$/java_project.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1638725065067)
++++ b/.idea/misc.xml	(date 1638725065067)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: StaticWeb01/web/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/StaticWeb01/web/index.jsp b/StaticWeb01/web/index.jsp
+new file mode 100644
+--- /dev/null	(date 1638780210478)
++++ b/StaticWeb01/web/index.jsp	(date 1638780210478)
+@@ -0,0 +1,20 @@
++<%--
++  Created by IntelliJ IDEA.
++  User: king
++  Date: 2021/12/4
++  Time: 0:03
++  To change this template use File | Settings | File Templates.
++--%>
++<%@ page contentType="text/html;charset=UTF-8" language="java" %>
++<html>
++<head>
++  <title>分布构效关系实验室</title>
++  <p>
++    重新搭建服务器，2021年12月6日
++
++  </p>
++</head>
++<body>
++
++</body>
++</html>
+Index: StaticWeb01/web/WEB-INF/web.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/StaticWeb01/web/WEB-INF/web.xml b/StaticWeb01/web/WEB-INF/web.xml
+new file mode 100644
+--- /dev/null	(date 1638547436550)
++++ b/StaticWeb01/web/WEB-INF/web.xml	(date 1638547436550)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
++         version="4.0">
++</web-app>
+\ No newline at end of file
+Index: StaticWeb01/StaticWeb01.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/StaticWeb01/StaticWeb01.iml b/StaticWeb01/StaticWeb01.iml
+new file mode 100644
+--- /dev/null	(date 1638547644071)
++++ b/StaticWeb01/StaticWeb01.iml	(date 1638547644071)
+@@ -0,0 +1,23 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="FacetManager">
++    <facet type="web" name="Web">
++      <configuration>
++        <descriptors>
++          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
++        </descriptors>
++        <webroots>
++          <root url="file://$MODULE_DIR$/web" relative="/" />
++        </webroots>
++      </configuration>
++    </facet>
++  </component>
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1638513692744)
++++ b/.idea/.gitignore	(date 1638513692744)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: .idea/artifacts/StaticWeb01_war_exploded.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/artifacts/StaticWeb01_war_exploded.xml b/.idea/artifacts/StaticWeb01_war_exploded.xml
+new file mode 100644
+--- /dev/null	(date 1638547644091)
++++ b/.idea/artifacts/StaticWeb01_war_exploded.xml	(date 1638547644091)
+@@ -0,0 +1,13 @@
++<component name="ArtifactManager">
++  <artifact type="exploded-war" name="StaticWeb01:war exploded">
++    <output-path>$PROJECT_DIR$/out/artifacts/StaticWeb01_war_exploded</output-path>
++    <root id="root">
++      <element id="javaee-facet-resources" facet="StaticWeb01/web/Web" />
++      <element id="directory" name="WEB-INF">
++        <element id="directory" name="classes">
++          <element id="module-output" name="StaticWeb01" />
++        </element>
++      </element>
++    </root>
++  </artifact>
++</component>
+\ No newline at end of file
+Index: .idea/artifacts/java_project_war_exploded.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/artifacts/java_project_war_exploded.xml b/.idea/artifacts/java_project_war_exploded.xml
+new file mode 100644
+--- /dev/null	(date 1638547644101)
++++ b/.idea/artifacts/java_project_war_exploded.xml	(date 1638547644101)
+@@ -0,0 +1,13 @@
++<component name="ArtifactManager">
++  <artifact type="exploded-war" name="java_project:war exploded">
++    <output-path>$PROJECT_DIR$/out/artifacts/java_project_war_exploded</output-path>
++    <root id="root">
++      <element id="javaee-facet-resources" facet="java_project/web/Web" />
++      <element id="directory" name="WEB-INF">
++        <element id="directory" name="classes">
++          <element id="module-output" name="java_project" />
++        </element>
++      </element>
++    </root>
++  </artifact>
++</component>
+\ No newline at end of file
+Index: src/com/atguigu/java/Helloworld.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/atguigu/java/Helloworld.java b/src/com/atguigu/java/Helloworld.java
+new file mode 100644
+--- /dev/null	(date 1638713325765)
++++ b/src/com/atguigu/java/Helloworld.java	(date 1638713325765)
+@@ -0,0 +1,22 @@
++package com.atguigu.java;
++
++import sun.tracing.PrintStreamProviderFactory;
++
++/*
++ctrl+shift+v  复制需要的东西
++ctrl+shift+h  查看当前方法被哪些调用过
++alt+F8        查看已有变量存在的位置
++*常用的模板
++    psvm(首字母)--》 public static void main(String[] args)
++    打印 sout
++ */
++public class Helloworld {
++    private int num;
++
++    public static void main(String[] args) {
++        //打印
++
++        int num = 1000;
++        System.out.println("java,我又回来了！");
++    }
++}
+\ No newline at end of file
+Index: .idea/dataSources.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/dataSources.xml b/.idea/dataSources.xml
+new file mode 100644
+--- /dev/null	(date 1638774666356)
++++ b/.idea/dataSources.xml	(date 1638774666356)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
++    <data-source source="LOCAL" name="test@localhost" uuid="515ae498-53f6-4d5e-bc42-3acfddb51937">
++      <driver-ref>mysql.8</driver-ref>
++      <synchronize>true</synchronize>
++      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
++      <jdbc-url>jdbc:mysql://localhost:3306/test</jdbc-url>
++      <working-dir>$ProjectFileDir$</working-dir>
++    </data-source>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/webContexts.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/webContexts.xml b/.idea/webContexts.xml
+new file mode 100644
+--- /dev/null	(date 1638550156021)
++++ b/.idea/webContexts.xml	(date 1638550156021)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="WebContextManager">
++    <option name="state">
++      <map>
++        <entry key="file://$PROJECT_DIR$/StaticWeb01/web/index.jsp" value="file://$PROJECT_DIR$/StaticWeb01/web" />
++      </map>
++    </option>
++  </component>
++</project>
+\ No newline at end of file

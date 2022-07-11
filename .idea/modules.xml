@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/05_XML/05_XML.iml" filepath="$PROJECT_DIR$/Javaweb_learning/05_XML/05_XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/06_servlet/06_servlet.iml" filepath="$PROJECT_DIR$/Javaweb_learning/06_servlet/06_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/book/book.iml" filepath="$PROJECT_DIR$/Javaweb_learning/book/book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day01/day01.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day01/day01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day02/day02.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day02/day02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day03/day03.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day03/day03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day04/day04.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day04/day04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day05/day05.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day05/day05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day06/day06.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day06/day06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day07/day07.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day07/day07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day08/day08.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day08/day08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day09/day09.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day09/day09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day10/day10.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day10/day10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day11/day11.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day11/day11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day12/day12.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day12/day12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day13/day13.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/day13/day13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/java_ senior.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/java_ senior.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java_project.iml" filepath="$PROJECT_DIR$/.idea/java_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/myproject03/myproject03.iml" filepath="$PROJECT_DIR$/Javaweb_learning/java_ senior/JavaSenior/myproject03/myproject03.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--/**-->
+<!--@author king_xiong-->
+<!--@date 2021-12-14 10:58-->
+<!--*/-->
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <!--  <script type="text/javascript">-->
+    <!--    alert("hello javascript!");-->
+    <!--  </script>-->
+    <!--    <script type="text/javascript" src="cities.js"></script>-->
+</head>
+<body onload="onloadFun();">
+<!--
+布尔运算进行的操作
+&&
+||
+当出现运算结果的时候返回此值，和java的短路一样，提高运算效率
+且运算： &&
+或运算： ||
+取反运算： !
+在 JavaScript 语言中，所有的变量，都可以做为一个 boolean 类型的变量去使用。
+0 、null、 undefined、””(空串) 都认为是 false
+-->
+<!--  和java不同的地方
+关系（比较）运算
+等于： == 等于是简单的做字面值的比较
+全等于： === 除了做字面值的比较之外，还会比较两个变量的数据类型-->
+
+<!--JavaScript 里特殊的值：
+undefined 未定义，所有 js 变量未赋于初始值的时候，默认值都是 undefined.
+null 空值
+NaN 全称是：Not a Number。非数字。非数值
+-->
+
+<!--<script type="text/javascript">-->
+<!--&lt;!&ndash;    定义的变量要写在script里面&ndash;&gt;-->
+<!--var i=5;-->
+<!--alert(typeof(i))-->
+<!--</script>-->
+<!--非法的是NaN-->
+<!--<script type="text/javascript">-->
+<!--    var a ="sss";-->
+<!--    var b=444;-->
+
+
+<!--    alert(a*b);-->
+<!--</script>-->
+<!--<script type="text/javascript">-->
+<!--    var arr=[];-->
+<!--    arr[4]=2;-->
+<!--    alert((arr.length));-->
+<!--    for (var i=0;i< arr.length;i++) {-->
+<!--        alert(arr[i]);-->
+<!--    }-->
+<!--</script>-->
+<!--JavaScript中没有重载  重新写的方法会直接覆盖哦
+    在 Java 中函数允许重载。但是在 JS 中函数的重载会直接覆盖掉上一次的定义
+-->
+<!--<script type="text/javascript">-->
+<!--    function fun() {-->
+<!--        alert("fun()被调用");-->
+<!--    }-->
+<!--    function fun2(a,b) {-->
+<!--        alert("有参数被调用"+a+"还有一个"+b);-->
+<!--    }-->
+<!--    fun()-->
+<!--    fun2(2,5)-->
+<!--</script>-->
+
+<!--<script type="text/javascript" src="cities.js">-->
+r<!--    function fun1() {-->
+<!--        // alert(arguments.length); //查看可变参数个数-->
+<!--        alert(arguments[0]);-->
+<!--        alert(”哈哈哈哈“);-->
+<!--    }-->
+<!--    fun1();-->
+<!--</script>-->
+<!--
+Object 形式的自定义对象
+对象的定义：
+var 变量名 = new Object(); // 对象实例（空对象）
+变量名.属性名 = 值; // 定义一个属性
+变量名.函数名 = function(){} // 定义一个函数
+对象的访问：
+变量名.属性 / 函数名();-->
+<!--<script type="text/javascript">-->
+<!--    var obj= new Object();-->
+<!--    obj.name='华子昂';-->
+<!--    obj.age=18;-->
+<!--    obj.funtest=function(){-->
+<!--        alert("obj的方法调用！"+this.name+"年龄"+this.age);-->
+<!--    }-->
+<!--    obj.funtest()-->
+<!--</script>-->
+
+<!--{}花括号形式的自定义对象
+对象的定义：
+var 变量名 = { // 空对象
+属性名：值, // 定义一个属性
+属性名：值, // 定义一个属性
+函数名：function(){} // 定义一个函数
+};
+对象的访问：
+变量名.属性 / 函数名();-->
+<!--<script type="text/javascript">-->
+<!--&lt;!&ndash;    新定义的对象&ndash;&gt;-->
+<!--    var obj={-->
+<!--        name:"华哥",-->
+<!--        age:18,-->
+<!--        fun2:function(){-->
+<!--            alert(this.name+"**是华哥的名字"+this.age+"这个是年纪！");-->
+<!--        }-->
+<!--    }-->
+<!--    obj.fun2()-->
+<!--</script>-->
+<!--10、js 中的事件
+什么是事件？事件是电脑输入设备与页面进行交互的响应。我们称之为事件。
+常用的事件：
+onload 加载完成事件： 页面加载完成之后，常用于做页面 js 代码初始化操作
+onclick 单击事件： 常用于按钮的点击响应操作。
+onblur 失去焦点事件： 常用用于输入框失去焦点后验证其输入内容是否合法。
+onchange 内容发生改变事件： 常用于下拉列表和输入框内容发生改变后操作
+onsubmit 表单提交事件： 常用于表单提交前，验证所有表单项是否合法。 事件的注册又分为静态注册和动态注册两种：
+什么是事件的注册（绑定）？
+其实就是告诉浏览器，当事件响应后要执行哪些操作代码，叫事件注册或事件绑定。 静态注册事件：通过 html 标签的事件属性直接赋于事件响应后的代码，这种方式我们叫静态注册。 动态注册事件：是指先通过 js 代码得到标签的 dom 对象，然后再通过 dom 对象.事件名 = function(){} 这种形式赋于事件
+响应后的代码，叫动态注册。
+动态注册基本步骤：
+1、获取标签对象
+2、标签对象.事件名 =-->
+<!--<script type="text/javascript">-->
+<!--    function onloadFun(){-->
+<!--        alert("静态注册事件加载!")-->
+<!--    }-->
+<!--    //onload 事件动态注册。是固定写法-->
+<!--    window.onload=function () {-->
+<!--        alert("动态注册")-->
+<!--    }-->
+<!--</script>-->
+<!--onclick 单击事件-->
+<!--<script type="text/javascript">-->
+<!--    静态注册的onclick-->
+<!--    function onclickFun() {-->
+<!--        alert("静态注册onclick事件！！！");-->
+<!--    }-->
+<!--    window.onload=function () {-->
+<!--        var dynamic_a=document.getElementById("btn02");-->
+<!--        dynamic_a.onclick=function () {-->
+<!--            alert("动态注册的onclick加载出来了...");-->
+<!--        }-->
+<!--    }-->
+<!--    // 1 获取标签对象-->
+<!--    /*-->
+<!--    * document 是 JavaScript 语言提供的一个对象（文档）<br/>-->
+<!--    * get 获取-->
+<!--    * Element 元素（就是标签）-->
+<!--    * By 通过。。 由。。经。。。-->
+<!--    * Id id 属性-->
+<!--    *-->
+<!--    * getElementById 通过 id 属性获取标签对象-->
+<!--    **/-->
+<!--&lt;!&ndash;</script>&ndash;&gt;-->
+<!--<button onclick="onclickFun();" id="btn01">按钮1</button>-->
+<!--<button id="btn02">按钮2</button>-->
+<!--<script type="text/javascript">-->
+<!--    //静态注册失去焦点的onblur事件-->
+<!--    function onblurfun(){-->
+<!--        console.log("静态注册onblur的事件！")-->
+<!--    }-->
+<!--    //动态注册的下面这个是固定的写法-->
+<!--    window.onload=function (){-->
+<!--        var pa=document.getElementById("password");-->
+<!--        pa.onblur=function (){-->
+<!--            console.log("动态注册的onblur加载成功打印一下.....");-->
+<!--            // alert('动态注册的alert事件加载成功！+++')-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
+<!--<form action="">-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <td>用户名：</td>-->
+<!--            <td><input type="text" id="name" onblur="onblurfun();"></td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>密码：</td>-->
+<!--            <td><input type="text" id="password" onblur="onblur;"></td>-->
+<!--        </tr>-->
+<!--    </table>-->
+<!--</form>-->
+<!--<script type="text/javascript">-->
+<!--    //静态注册的写法-->
+<!--    function onchangeFun(){-->
+<!--        alert("选择的已经改变了！")-->
+<!--    }-->
+<!--    //动态注册的onchange写法-->
+<!--    window.onload=function () {-->
+<!--        var obj = document.getElementById("change")-->
+<!--        obj.onchange=function () {-->
+<!--            alert("改变了哈，请注意！！！！")-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
+<!--<select onchange="onchangeFun();" >-->
+<!--    <option>张三</option>-->
+<!--    <option>李四</option>-->
+<!--    <option>猪八戒</option>-->
+<!--    <option>孙猴子</option>-->
+<!--    <option>杰克</option>-->
+<!--</select>-->
+<!--<select id="change" >-->
+<!--    <option>张123231</option>-->
+<!--    <option>李123231</option>-->
+<!--    <option>猪123231戒</option>-->
+<!--    <option>孙123231子</option>-->
+<!--    <option>杰123231</option>-->
+<!--</select>-->
+<!--onsubmit 表单提交事件-->
+<!--<script type="text/javascript">-->
+<!--    //静态注册下面的提交按钮的写法-->
+<!--    function onsubmitfun(){-->
+<!--        alert("提交的静态注册的写法！")-->
+<!--    }-->
+<!--    //动态注册的写法-->
+<!--    window.onload=function () {-->
+<!--        var t=document.getElementById("sec_form")-->
+<!--        t.onsubmit=function () {-->
+<!--            alert("这个是动态注册的方法！")-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
+<!--<form action="" onsubmit="return onsubmitfun();">-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <button>提交</button>-->
+<!--        </tr>-->
+<!--    </table>-->
+<!--</form>-->
+<!--<form action="http://localhost:8080" method="get" id="sec_form">-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <button>submit</button>-->
+<!--        </tr>-->
+<!--    </table>-->
+<!--</form>-->
+<script type="text/javascript">
+    //静态注册下面的校验的写法
+    function onclickfun() {
+        var user=document.getElementById("username")
+        var usertext = user.value;
+        var patt = /^\w{1,12}$/;
+        if (patt.test(usertext)){
+            alert("姓名合法！")
+        }
+        else {
+            alert("姓名的写法有问题，请检查！")
+        }
+    }
+    //动态注册的写法
+    // window.onload = function () {
+    //     var t = document.getElementById("sec_form")
+    //     t.onsubmit = function () {
+    //         alert("这个是动态注册的方法！")
+    //     }
+    // }
+</script>
+<tr>
+    用户名：<input type="text" value="王师傅" id="username">
+</tr>
+<br>
+<tr>
+    密码：<input type="text" value="1231" id="password">
+</tr>
+<br>
+<button onclick="onclickfun();">提交</button>
+
+</body>
+</html>
